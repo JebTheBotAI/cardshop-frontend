@@ -10,10 +10,19 @@ Next.js frontend for the `cardshop-api` backend.
 
 ## Backend
 
-Set API base URL in `.env.local`:
+Use environment templates:
+
+- `.env.local.example` (local)
+- `.env.production.example` (production)
+
+Examples:
 
 ```bash
+# local
 NEXT_PUBLIC_API_BASE_URL=http://localhost:8080
+
+# production
+NEXT_PUBLIC_API_BASE_URL=https://cardshop-api.onrender.com
 ```
 
 ## Run
